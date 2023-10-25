@@ -9,4 +9,13 @@ public class Collision : MonoBehaviour
         Debug.Log("Collision");
     }
 
+    void OnTriggerEnter2D(Collider2D other) 
+    {
+        Debug.Log("Enter");        
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        Debug.Log("Exit");    
+    }
 }
