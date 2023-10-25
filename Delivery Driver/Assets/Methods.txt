@@ -1,0 +1,24 @@
+# Methods
+
+### What are Methods?
+
+* Methods (aka Functions) exectute blocks of code that makes our game do things
+* We can
+    - Use methods already available in Unity
+    - Create our own methods
+
+
+### Creating and Calling
+
+* Create - Giving a method a name and saying what it should do
+* Call - Doing the thing now
+
+
+### Start()
+
+* Executing methods when "Play" starts
+
+
+### Update()
+
+* Executes methods every frame
