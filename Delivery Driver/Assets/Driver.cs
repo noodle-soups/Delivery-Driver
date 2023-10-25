@@ -6,7 +6,7 @@ using UnityEngine;
 public class Driver : MonoBehaviour
 {
     [SerializeField] float steerSpeed = 200f;
-    [SerializeField] float moveSpeed = 20f; 
+    [SerializeField] float moveSpeed = 10f; 
 
     // Start is called before the first frame update
     void Start()

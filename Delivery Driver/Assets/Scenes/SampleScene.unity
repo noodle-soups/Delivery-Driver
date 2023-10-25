@@ -1057,6 +1057,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1138,6 +1139,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c0201f09145e242b410d7caa2cb032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thingToFollow: {fileID: 709301260}
 --- !u!1 &521155272
 GameObject:
   m_ObjectHideFlags: 0
@@ -2440,8 +2454,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ceba174e380aab4784cdd5a843dd313, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  steerSpeed: 300
-  moveSpeed: 20
+  steerSpeed: 200
+  moveSpeed: 10
 --- !u!212 &709301262
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2482,7 +2496,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36303c508a7f19645aa1fcdc4578cfa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
