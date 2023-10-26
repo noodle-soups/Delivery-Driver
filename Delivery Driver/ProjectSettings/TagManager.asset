@@ -8,6 +8,7 @@ TagManager:
   - Customer
   - Speed Up
   - Tree
+  - Road
   layers:
   - Default
   - TransparentFX
