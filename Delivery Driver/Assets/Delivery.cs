@@ -5,12 +5,16 @@ using UnityEngine;
 
 public class Delivery : MonoBehaviour
 {
-
+    [SerializeField] Color32 hasPackageColour = new Color32 (1, 1, 1, 1);
+    [SerializeField] Color32 noPackageColour = new Color32 (1, 1, 1, 1);
     [SerializeField] float destroyDelay = 0.5f;
     bool hasPackage;
 
-    private void Start()
+    SpriteRenderer spriteRenderer;
+
+    void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         Debug.Log(hasPackage);    
     }
 
@@ -27,6 +31,7 @@ public class Delivery : MonoBehaviour
         {
             Debug.Log("Package picked up");
             hasPackage = true;
+            spriteRenderer.color = hasPackageColour;
             Destroy(other.gameObject, destroyDelay);
         }
 
@@ -34,6 +39,7 @@ public class Delivery : MonoBehaviour
         {
             Debug.Log("Delivered to customer");
             hasPackage = false;
+            spriteRenderer.color = noPackageColour;
         }
 
     }
