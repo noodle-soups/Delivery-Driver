@@ -9,7 +9,7 @@
 
 <br>
 
-### Game mechanics
+### Mechanics
 
  * Driving car forwards and backwards
  * Turning car left and right
@@ -20,7 +20,7 @@
 
  <br>
 
- ### Game design
+ ### Design
 
 * Payer experience: Relaxing
 * Core mechanic: Drive oer pickups
